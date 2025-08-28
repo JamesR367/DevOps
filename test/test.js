@@ -12,3 +12,10 @@ describe('First two terms', function() {
       assert.strictEqual(main.fibonacci(1), 1);
     });
 });
+
+describe('First two terms', function() {
+  it('should return undefined for both', function() {
+      assert.strictEqual(main.fibonacci(-2), undefined);
+      assert.strictEqual(main.fibonacci(-534), undefined);
+    });
+});
